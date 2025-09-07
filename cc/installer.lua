@@ -1,0 +1,1 @@
+-- putting code in here to make computer craft installation of my scripts easier
