@@ -1,0 +1,32 @@
+body {
+  background-color: #111;
+  color: #0f0; /* green text for retro terminal vibes */
+  font-family: "Courier New", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fake navigation bar */
+.navbar {
+  background-color: #222;
+  height: 40px;
+  border-bottom: 2px solid #0f0;
+}
+
+/* Page title */
+.title {
+  font-size: 2em;
+  margin: 20px;
+  text-shadow: 0 0 5px #0f0;
+}
+
+/* Body text */
+p {
+  font-size: 1.2em;
+  margin: 20px;
+}
+
+/* Initially hidden chunks */
+.chunk {
+  opacity: 0;
+}
