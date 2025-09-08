@@ -25,6 +25,26 @@ p {
   font-size: 1.2em;
   margin: 20px;
 }
+/* boxes */
+.clickable-box {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #222;
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  text-decoration: none;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  box-shadow: 0 0 5px #00ffff;
+  transition: all 0.2s ease;
+}
+
+.clickable-box:hover {
+  background-color: #00ffff;
+  color: #000;
+  box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
 
 /* Initially hidden chunks */
 .chunk {
